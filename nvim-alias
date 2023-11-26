@@ -1,0 +1,1 @@
+alias nvims='(export XDG_CONFIG_HOME=/home/louis/projects/nvim-config/config && export XDG_DATA_HOME=/home/louis/projects/nvim-config/share && export XDG_STATE_HOME=/home/louis/projects/nvim-config/state && nvim)'
