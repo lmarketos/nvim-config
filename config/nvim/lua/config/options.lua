@@ -15,6 +15,7 @@ opt.smartcase = true
 opt.hlsearch = true
 
 -- Appearance
+opt.number = true
 opt.relativenumber = true
 opt.termguicolors = true
 opt.colorcolumn = '100'
