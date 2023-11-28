@@ -1,6 +1,9 @@
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
+-- Escape
+keymap.set("i", "kj", "<Esc>", opts)
+
 -- Directory Navigation
 keymap.set("n", "<leader>m", ":NvimTreeFindFile<CR>", opts)
 keymap.set("n", "<leader>f", ":NvimTreeToggle<CR>", opts)
