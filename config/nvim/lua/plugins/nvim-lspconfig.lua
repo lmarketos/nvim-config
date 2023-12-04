@@ -100,6 +100,7 @@ local config = function()
 	})
 
 	local luacheck = require("efmls-configs.linters.luacheck")
+	local flake8 = require("efmls-configs.linters.flake8")
 	local stylua = require("efmls-configs.formatters.stylua")
 	local black = require("efmls-configs.formatters.black")
 	local fixjson = require("efmls-configs.formatters.fixjson")
